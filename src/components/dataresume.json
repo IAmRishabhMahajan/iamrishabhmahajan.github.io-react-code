@@ -1,0 +1,383 @@
+{"name": "RISHABH MAHAJAN ",
+ "title": "Measure | Model | Improve",
+ "github":"https://github.com/iamrishabhmahajan",
+ "img_source":"/src/components/images/profile-img.jpg",
+ "greeting": "Welcome to my Hub, ",
+ "description": ["Programming, researching, and learning data science are my joy. As I engage in problem-solving, this joy transforms into a devoted commitment.",
+                  "My career goal is to enable businesses by leveraging data-driven technologies. I achieve this by fostering collaboration, applying critical thinking, and continuously expanding my technical expertise.",
+                  "I have solid experience in data engineering, including data pipeline development, ETL processes, cloud computing, and database management. Additionally, I have expertise in data analytics, machine learning, and web development—skills that enable me to bridge multiple domains effectively. Alongside building scalable data solutions, I enjoy being a tech generalist who is always eager to learn and grow.",
+		  "Last but not least, I’m a foodie, a Picasso wannabe, and a gleeful introvert."],
+ "highlight": "If your awesome data team needs some more hands, I got you. I'm looking forward an opportunities to bring data science solutions to level up the business performance. So, if you think we could be a good match, please reach out to me!",
+ "education":[{
+    "school":"Master of Data Science and Innovation",
+    "begin_year":"2024",
+    "end_year":"2025",
+    "program": "University of Technology Sydney",
+    "WAM": "91",
+    "school_link": "https://www.uts.edu.au/",
+    "program_link": "https://www.uts.edu.au/courses/master-of-data-science-and-innovation"
+ },
+ {
+    "school":"Bachelor of Technology",
+    "begin_year":"2024",
+    "end_year":"2025",
+    "program": "Guru Gobind Singh Indraprastha University",
+    "WAM": "91",
+    "school_link": "http://www.ipu.ac.in/",
+    "program_link": "https://www.uts.edu.au/courses/master-of-data-science-and-innovation"
+ }
+],
+ "experience":[
+  {
+    "experience": "Data Engineering Intern",
+    "company": "Data Prowess",
+    "company_location": "Sydney, Australia",
+    "work_begin": "December 2024",
+    "work_end": "February 2025",
+    "task": [
+      "Developed an LLM-based pipeline to analyze datamart dataset schemas and identify PII fields, enabling automated detection of sensitive data before dataset sharing for analytics while maintaining privacy compliance.",
+      "Engineered fixed-width compatible anonymization logic for datasets stored in AWS S3, applying masking transformations while preserving schema structure required by downstream analytics pipelines.",
+      "Worked on ad-hoc tasks including dataset preparation, debugging data processing scripts, and reviewing pipeline logs."
+    ],
+    "skill": [
+      "Python",
+      "SQL",
+      "AWS S3",
+      "LLM",
+      "PII Detection",
+      "Data Anonymization",
+      "Data Engineering",
+      "Dataset Preparation",
+      "Debugging"
+    ]
+  },
+  {
+    "experience": "Developer and Trainer",
+    "company": "Youngwonks (Wonksknow)",
+    "company_location": "Bengaluru, India",
+    "work_begin": "January 2023",
+    "work_end": "January 2024",
+    "task": [
+      "Developed an AI-powered resume generation feature using the OpenAI API that converts user profile data into structured resumes, enabling automated resume creation, expanding the platform’s feature set and increasing platform user engagement by 27.6 percent.",
+      "Built backend services to validate and normalize user profile data through field checks and format validation, integrating APIs with frontend components.",
+      "Conducted data science and machine learning workshops to 500+ early professionals, teaching Python-based data analysis and foundational ML model-building techniques, enabling learners to develop hands-on skills in data preprocessing, model training, and evaluation workflows."
+    ],
+    "skill": [
+      "Python",
+      "OpenAI API",
+      "Machine Learning",
+      "Backend Development",
+      "API Integration",
+      "Data Validation",
+      "Data Science",
+      "Training",
+      "SQL"
+    ]
+  },
+  {
+    "experience": "Digital Specialist Engineer",
+    "company": "Infosys",
+    "company_location": "Mysore, India",
+    "work_begin": "November 2020",
+    "work_end": "January 2023",
+    "task": [
+      "Built and maintained 200+ REST APIs for internal applications to enable database query operations, adapting Java service objects and enterprise data models to evolving company-wide database schemas to ensure backend compatibility and reliable data access.",
+      "Developed an SQL-based log analysis module to investigate system error logs by application module and integrated the results into Power BI dashboards, enabling engineers to visualize error trends, identify high-failure components, and prioritize system fixes.",
+      "Contributed to migrating legacy backend components to Java to modernize the platform architecture for Spark Telecommunications, improving code maintainability and enabling engineering teams to develop and extend backend services more efficiently.",
+      "Collaborated with client-side frontend teams during integration meetings to discuss UI changes impacting backend APIs, translating new frontend requirements into backend updates and ensuring smooth integration across interconnected systems."
+    ],
+    "skill": [
+      "Java",
+      "REST APIs",
+      "SQL",
+      "Power BI",
+      "Backend Development",
+      "Database Management",
+      "System Migration",
+      "Data Visualization",
+      "Agile",
+      "Frontend-Backend Integration"
+    ]
+  }
+],
+ "project":[
+ {
+    "name": "Clinical Consultation Analysis with AI Transcription",
+    "date": 2024,
+    "projectype": "Hackathon",
+    "description":[
+     "The app enhances clinical consultations by transcribing audio recordings into text and analyzing them with AI to extract key details about diet, lifestyle, and symptoms. It generates concise summaries for easy follow-ups, helps manage appointments with calendar integration, and allows users to securely share health summaries with doctors, family, or friends. This tool aims to improve healthcare engagement, streamline communication, and support better treatment outcomes."
+    ],
+    "skill_tag": ["Grok", "OpenAI Whisper", "API Integration", "Python", "Streamlit"],
+    "difficult":3,
+    "viewLink":"https://www.loom.com/share/503b98cb5fbc4561b80726cfcb32c438?sid=18c9d71c-e640-4178-8ff9-83cb10a55aba"
+    },
+ {
+    "name": "LLM Evaluation Custom Dataset",
+    "date": 2024,
+    "projectype": "Personal Project",
+    "description":[
+     "The LLM Evaluation Custom Dataset app provides a simple interface for evaluating language models using your datasets. With support for exact and relative match testing, it enables users to upload datasets, configure model details, enter prompts, and evaluate performance. The app handles datasets in CSV or Excel formats, requiring two columns: test_input and label."
+    ],
+    "skill_tag": ["Large Language Model", "Nextjs", "Django", "Docker", "Bash", "JavaScript", "Python"],
+    "difficult":3,
+    "viewLink":"https://youtu.be/sronXZV0Emw",
+    "sourceCode":"https://github.com/thaoquynh0603/llm-eval-custom-dataset"
+    },
+ {
+    "name": "Pickle Recipe: Using AI to reduce Food Waste",
+    "date": 2024,
+    "projectype": "Hackathon",
+    "description":[
+     "The Pickle Recipe app is an AI-powered tool that generates recipes and corresponding recipe photos based on user inputs like ingredients, leftovers, cooking time, and difficulty level.  This app utilizes an AI agent which users can interact with via email to request recipes and receive the generated recipe and photo."
+    ],
+    "skill_tag": ["AI Agent", "ReactJs", "Relevance AI"],
+    "difficult":2,
+    "viewLink": "https://youtu.be/xWvfE1z30Gs",
+    "sourceCode": "https://github.com/thaoquynh0603/pickle-recipe"
+    },
+ {
+    "name": "SQL Query Assistant with AI",
+    "date": 2024,
+    "projectype": "Personal Project",
+    "description":[
+     "Developed a user-friendly platform enabling users to generate customized SQL queries tailored to their database system utilizing GCP Codey, Gemini Pro, and ChatGPT.",
+"Implemented robust data validation features allowing users to conduct unit checks on output data, including missing value, null value, and value range checks.",
+"Enhanced query accuracy by dynamically providing relevant query examples using a RAG system, incorporating vector search capabilities.",
+"Utilized Streamlit to create an intuitive and interactive user interface for seamless user experience.",
+"Conducted extensive research on foundational models, testing their efficacy on graph and vector databases for the RAG system, while exploring UI frameworks such as Streamlit and React.js for optimal performance.",
+"Successfully presented a compelling demo to Euc's data team, effectively introducing the project and garnering approval for its integration into Euc's data analysis workflow."
+    ],
+    "skill_tag": ["Large Language Model", "Retrieval Augmented Generation", "Google Cloud APIs", "Streamlit", "Python"],
+    "difficult":3,
+    "viewLink": "https://youtu.be/kBhp6QGMLbQ",
+    "sourceCode": "https://github.com/thaoquynh0603/sql-assistant-streamlit"
+    },
+ {
+      "name": "CRM Usability Categorization",
+      "date": 2023,
+      "projectype": "Enterprise Project",
+      "description":[
+       "Query the data from CRM system using SQL and prepare the data with Pandas and Numpy.",
+	"Build a mathematical model to define the level of compatibility betwen company's resources and client's requirements.",
+	"Build a text-mining model to analyze clients and sellers' comments to understand the client' needs and issues.",
+	"Leverage object-oriented programming to generate a CRM record object that can define its usability with information verification and status categorization.",
+	"Employ Apache Hadoop to process all historical records in the CRM system."
+      ],
+      "skill_tag": ["SQL", "Python", "Text Mining", "Object-oriented Programming", "Apache Hadoop"],
+      "difficult":3,    	
+      "sourceCode":"https://github.com/thaoquynh0603/sttrinitycrm"
+    },
+ {
+      "name": "Identifying Buy/Sell Signals using the Moving Average Model",
+      "date": 2023,
+      "projectype": "Research Project",
+      "description":[
+       "Apply the Moving Average Model to generate buy/sell/hold signals on the data of different ETFs from Yahoo Finance",
+	"Contribute to the programming algorithm of the model",
+	"Visualise the exhibits using Matplotlib, PowerBI and Microsoft Excel."
+      ],
+      "skill_tag": ["Visualization", "Python", "Microsoft Excel","PowerBI", "Finance Modelling"],
+      "difficult":3,    	
+	"sourceCode":"https://github.com/thaoquynh0603/npresearch"
+    },
+ {
+      "name": "Customer Segmentation with Clustering Algorithms",
+      "date": 2023,
+      "projectype": "Individual Project",
+      "description":[
+       "Exploratory Data Analysis to analyse the pattern of the data before fitting the data into the model.",
+"Data Cleaning and Preparation includes handling with missing values, unappropriate values and outliers. Besides, feature engineering, standardization and PCA method are also applied to improve the efficiency when fitting the data in the model.",
+"Unsupervised Machine Learning - Clustering task: fitting the data into K-means clustering and Agglomerative Clustering, visualising the results, evaluating the performance and intepreting the most efficienct clustering result."
+      ],
+      "skill_tag": ["EDA", "Data Preparation", "Unsupervised Learning"],
+      "difficult":2,    	
+	"sourceCode":"https://github.com/thaoquynh0603/cluster-analysis"
+    },
+ {
+      "name": "Nintendo Switch Game Recommendation",
+      "date": 2022,
+      "projectype": "Individual Project",
+      "description":[
+        "Scrape the game title and description from Wikipedia using BeautifulSoup4 and clean the data with Pandas.",
+	"Extract features from the game description using text mining techniques: text tokenizing, TF-IDF Vectorization",
+	"Recommend the game by finding the similar games with K-Mean Clustering and Cosine similarity." 
+      ],
+      "skill_tag": ["Data Scraping", "Text Mining", "Unsupervised Learning"],
+      "difficult":2,    	
+	"sourceCode":"https://github.com/thaoquynh0603/game-recommendation"
+    },
+  {
+      "name": "Rotten Fruit Classification",
+      "date": 2022,
+      "projectype": "Individual Project",
+      "description":[
+        "Build model that classify three types of fruits (orange, banana, apple) and its status (fresh or rotten).",
+	"Process the image and train the model using neutral network and transfer learning (VGG16 and ResNet50)" 
+      ],
+      "skill_tag": ["Tensorflow", "Neural Network", "Transfer Learning"],
+      "difficult":2,    	
+	"sourceCode":"https://github.com/thaoquynh0603/rotten-fruit-classification"
+    },
+  {
+      "name": "Cloud Usage Dashboard",
+      "date": 2022,
+      "projectype": "Enterprise Project",
+      "description":[
+        "A dashboard using multiple visual types (Table, Map, Bar Chart, Treemap, Scorecard), filter and DAX language to analyze the cloud usage by location, company, and category." 
+      ],
+      "skill_tag": ["Visualization", "PowerBI", "DAX"],
+      "difficult":2,    	
+	"sourceCode":""
+    },
+  {
+      "name": "E-commerce Interface: Pokemon Shop",
+      "date": 2022,
+      "projectype": "Individual Project",
+      "description":[
+        "A website using HTML, CSS and responsive front-end techniques to introduce about Hue City, Vietnam"
+      ],
+      "skill_tag": ["HTML", "CSS"],
+      "difficult":1,    	
+	"sourceCode":"https://github.com/thaoquynh0603/pokemon-shop",
+	"viewLink":"https://thaoquynh0603.github.io/pokemon-shop/"
+    },
+    {
+      "name": "Static Website: Introduction to Hue",
+      "date": 2022,
+      "projectype": "Individual Project",
+      "description":[
+        "A website using HTML, CSS and responsive front-end techniques to introduce about Hue City, Vietnam"
+      ],
+      "skill_tag": ["HTML", "CSS", "Front-end Development"],
+      "difficult":1,    	
+	"sourceCode":"https://github.com/thaoquynh0603/hue-city-html-css",
+	"viewLink":"https://thaoquynh0603.github.io/hue-city-html-css/"
+    },
+    {
+      "name": "Predicting House Prices using Multiple Regression",
+      "date": 2022,
+      "projectype": "Ìndividual Project",
+      "description":[
+        "Apply the knowledge about Linear Regression to observe the relationship between variables and predict the future value of a property.",
+        "Achieve the 11% difference between the model's prediction and the actual value."
+      ],
+      "skill_tag": ["Statistics", "Linear Regresson", "EDA", "Python"],
+      "difficult":1,	"sourceCode":"https://github.com/thaoquynh0603/multiple-regression-predict-house-price"
+    }
+    ],
+ "qualification":[
+    {
+      "certiname":"Machine Learning Engineer Specialisation",
+      "date":"December 2024",
+      "description":"Fundamentals of MLOps, key technologies like Python, Docker, MLflow, deployment strategies, and monitoring.",
+      "link":"https://www.datacamp.com/completed/statement-of-accomplishment/track/25a8d423952dab325feb935665f2a24728d73e5a",
+      "image":"https://drive.google.com/uc?export=view&id=1YsIp2FxZPrKoO_f1CQWUuevgbwisYYSx"
+    },
+    {
+      "certiname":"Big Data Specialisation, University of San Diago",
+      "date":"Sep 2023",
+      "description":"Big Data Modeling and Management Systems, Graph Analytics for Big Data, Big Data Integration and Processing, Machine Learning With Big Data.",
+      "link":"https://coursera.org/share/902f3dc58e60866762dc04695fe75804",
+      "image":"https://drive.google.com/uc?export=view&id=1RT_2UX2c3irh2hEIDz_ipFPq1LttXJfO"
+    },
+    {
+      "certiname":"SQL (Advanced) Certificate, Hackerrank",
+      "date":"Nov 2022",
+      "description":"Query optimization, data modeling, Indexing, window functions, and pivots in SQL.",
+      "link":"https://www.hackerrank.com/certificates/875275b62780",
+      "image":"https://drive.google.com/uc?export=view&id=10pCYFTdV1ER1LQ0KIrJr1lzPrEYRI7u5"
+    },
+    {
+      "certiname":"Machine Learning Specialisation, DeepLearning.AI",
+      "date":"Nov 2022",
+      "description":"Build ML models with NumPy & scikit-learn, build & train supervised and unsupervised models.",
+      "link":"https://www.coursera.org/account/accomplishments/specialization/certificate/HE5B542ZKK3M",
+      "image":"https://drive.google.com/uc?export=view&id=1ZYAI7nUljCiARNrvxQMyAs_C5wgEd3MD"
+    },
+    {
+      "certiname":"Getting Started with Deep Learning, NVIDIA DLI",
+      "date":"Oct 2022",
+      "description":"Data Augmentation and Deployment, Convolutional Neural Networks, Recurrent Neural Networks, Pre-Trained Model. ",
+      "link":"https://courses.nvidia.com/certificates/56265535baa74343b3c3f1c086c7c142/",
+      "image":"https://drive.google.com/uc?export=view&id=1jmMXOazM5-qSHDtcOgDo899uk054cvrr"
+    },
+    {
+      "certiname":"Microsoft Certified: Azure Fundamentals",
+      "date":"July 2022",
+      "description":"Foundational level knowledge of cloud services and how those services are provided with Microsoft Azure.",
+      "link":"https://www.credly.com/badges/f6a91a00-560e-423e-9f2d-156fff8044fe/public_url",
+      "image":"https://drive.google.com/uc?export=view&id=13qRUduIyTbjcfi0YtgtMgFMGRW5eajYZ"
+    },
+    {
+      "certiname":"Data Analysis with Python, freeCodeCamp",
+      "date":"May 2022",
+      "description":"Statistics, Data Exploratory Analysis, Visualization with Python",
+      "link":"https://www.freecodecamp.org/certification/quynhnguyen0603/data-analysis-with-python-v7",
+      "image":"https://drive.google.com/uc?export=view&id=1YxWSa6s8wu__4SLHCM7vfKpX4HwUOn7n"
+    },
+    {
+      "certiname":"Microsoft Certified: Azure Data Fundamentals",
+      "date":"April 2022",
+      "description":"Foundational knowledge of core data concepts and how they are implemented using Microsoft Azure data services.",
+      "link":"https://www.credly.com/badges/c6f51950-26ef-4c48-aa2b-71a052dc86cc/public_url",
+      "image":"https://drive.google.com/uc?export=view&id=1QvDnZxViY__KDGqtcq1Fqhy6mmqknkpQ"
+    }
+ ],
+ "phone": "0468 717 883",
+ "email": "rishabhmahajan1204@gmail.com",
+ "linkedin": "linkedin.com/in/rishabh-mahajan-2a9693142",
+ "linkedin_link": "https://www.linkedin.com/in/rishabh-mahajan-2a9693142/",
+ "cv_path":"https://drive.google.com/drive/folders/1jzYcuWC4FjYxVZhkeL-GG7LrXMtC0MN8",
+ "skills": {
+  "computer_languages": {
+    "label": ["Python", "SQL", "Java"],
+    "point": [9, 9, 7]
+  },
+  "software_tools": {
+    "label": [
+      ["Power", "BI"],
+      ["Power", "Automate"],
+      ["Databricks"],
+      ["Snowflake"],
+      ["Airflow"],
+      ["Docker"],
+      ["Flask"],
+      ["DBeaver"],
+      ["Streamlit"],
+      ["Gradio"],
+      ["Apache", "Spark"],
+      ["AWS"],
+      ["Microsoft", "Azure"],
+      ["Visual", "Studio", "Code"]
+    ],
+    "point": [9, 8, 8, 8, 8, 7, 8, 7, 7, 9, 8, 8, 9, 9]
+  },
+  "softskills": {
+    "label": [
+      "Communication",
+      ["Problem", "Solving"],
+      ["Critical", "Thinking"],
+      ["Time", "Management"],
+      "Teamwork",
+      ["Business", "Analysis"]
+    ],
+    "point": [8, 9, 9, 8, 9, 8]
+  },
+  "knowledge": {
+    "label": [
+      ["Data", "Engineering"],
+      ["Data", "Anonymization"],
+      ["API", "Development"],
+      ["Machine", "Learning"],
+      ["Data", "Visualization"],
+      ["Big", "Data"],
+      ["Cloud", "Computing"],
+      ["Database", "Management"],
+      ["Pipeline", "Optimization"]
+    ],
+    "point": [9, 8, 9, 9, 9, 8, 8, 8, 9]
+  }
+}
+}
+ 
