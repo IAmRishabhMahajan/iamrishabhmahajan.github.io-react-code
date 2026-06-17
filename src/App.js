@@ -9,6 +9,7 @@ import Experience from './components/experience';
 import Project from './components/project';
 import Qualification from './components/qualification';
 import Contact from './components/contact';
+import PitchIdea from './components/pitchIdea';
 import {
   getProfileSlugFromPath,
   ResumeDataProvider,
@@ -17,6 +18,12 @@ import {
 
 function App() {
   const pathname = window.location.pathname;
+
+  // Route: /pitch/:date -> show the saved pitch page (public/pitch_idea.html)
+  const pitchMatch = pathname.match(/^\/+pitch\/+([^/]+)\/*$/);
+  if (pitchMatch) {
+    return <PitchIdea date={decodeURIComponent(pitchMatch[1])} />;
+  }
 
   const profileSlug = getProfileSlugFromPath(pathname);
 
