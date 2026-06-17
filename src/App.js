@@ -16,7 +16,9 @@ import {
 } from './components/resumeData';
 
 function App() {
-  const profileSlug = getProfileSlugFromPath(window.location.pathname);
+  const pathname = window.location.pathname;
+
+  const profileSlug = getProfileSlugFromPath(pathname);
 
   if (!profileSlug) {
     return (

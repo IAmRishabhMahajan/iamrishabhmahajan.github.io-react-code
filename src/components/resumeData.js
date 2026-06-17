@@ -15,6 +15,7 @@ export const resumeProfiles = {
 
 export function getProfileSlugFromPath(pathname) {
   const slug = pathname.replace(/^\/+|\/+$/g, '');
+  if (!slug) return 'data-engineer';
   return resumeProfiles[slug] ? slug : null;
 }
 
